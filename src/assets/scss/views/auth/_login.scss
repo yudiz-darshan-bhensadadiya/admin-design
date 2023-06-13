@@ -1,0 +1,38 @@
+.login-form {
+  margin: 35px 0 25px 0;
+  .title-b {
+    margin-bottom: 20px;
+    .title {
+      font-size: $fs-20;
+      color: var(--primary-color);
+      font-weight: $fw-700;
+    }
+    p {
+      font-size: $fs-14;
+      color: var(--text-color);
+      line-height: 1.45;
+    }
+  }
+  @include media-max(md) {
+    margin: 20px 0 15px 0;
+    .title-b {
+      margin-bottom: 10px;
+    }
+  }
+}
+.b-link {
+  font-size: $fs-14;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: $fw-600;
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.reset_expire {
+  h5 {
+    color: var(--text-color);
+  }
+  color: var(--text-color);
+}

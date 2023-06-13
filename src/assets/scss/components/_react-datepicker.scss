@@ -1,0 +1,93 @@
+.react-datepicker-popper {
+  z-index: 9;
+}
+.react-datepicker {
+  border: none;
+  background-color: #323842;
+}
+.react-datepicker__navigation--previous {
+  margin-top: 5px;
+}
+.react-datepicker__navigation--next {
+  margin-top: 5px;
+}
+.react-datepicker__month-container {
+  background-color: #323842;
+  border: none;
+}
+.react-datepicker__day {
+  color: #fff;
+  font-size: 12px;
+}
+.react-datepicker__day:hover {
+  color: #0c121c;
+}
+.react-datepicker__day--in-range {
+  background-color: #235de9;
+}
+.react-datepicker__day--in-range:hover {
+  color: #fff;
+}
+.react-datepicker__header {
+  background-color: #235de9;
+}
+.react-datepicker__header {
+  border: none;
+}
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::after {
+  border-bottom-color: #235de9;
+}
+.react-datepicker__day--keyboard-selected {
+  background-color: #235de9;
+}
+.react-datepicker__day--keyboard-selected:hover {
+  background-color: #235de9;
+  color: #fff;
+}
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+  border-bottom-color: transparent;
+}
+.react-datepicker__current-month {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.react-datepicker__day-name {
+  color: #fff;
+}
+
+.react-datepicker__day--in-selecting-range {
+  background-color: #235de9;
+}
+.react-datepicker__day--in-selecting-range:hover {
+  color: #fff;
+}
+.react-datepicker__day--disabled {
+  opacity: 0.5;
+  &:hover {
+    color: $white;
+  }
+}
+
+.react-datepicker--time-only, .react-datepicker__time-container  {
+  .react-datepicker__triangle {
+    left: -10px !important;
+  }
+  .react-datepicker-time__header {
+    color: $white;
+    font-size: $fs-14;
+    font-weight: 400;
+  }
+  .react-datepicker__time {
+    background-color: var(--secondary-700);
+    color: $white;
+    li {
+      &.react-datepicker__time-list-item--selected {
+        font-weight: $fw-400 !important;
+      }
+      &:hover {
+        color: var(--theme-color);
+      }
+    }
+  }
+}

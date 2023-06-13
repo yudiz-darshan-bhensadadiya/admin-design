@@ -1,0 +1,182 @@
+.auth-main {
+  min-height: 100vh;
+  // padding: 48px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+
+  .child-box {
+    background-color: var(--white-color);
+    width: 100%;
+    max-width: 432px;
+    padding: 37px 24px 24px;
+    border-radius: 24px;
+    border-bottom: 10px solid var(--primary-color);
+    position: relative;
+    z-index: 2;
+    min-height: 445px;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+
+    img {
+      width: 50px;
+      height: auto;
+    }
+
+    span {
+      margin-left: 20px;
+      color: var(--white-color);
+      font-size: 20px;
+    }
+  }
+
+  // background: url('../../../images/login.jpg') no-repeat center/100%;
+
+  // &:before {
+  //   content: "";
+  //   background-color: var(--primary-color);
+  //   width: 156px;
+  //   height: 156px;
+  //   border-radius: 100%;
+  //   top: -53px;
+  //   right: -55px;
+  //   position: absolute;
+  //   animation: top_slide 10s linear infinite;
+  // }
+
+  // &:after {
+  //   content: "";
+  //   width: 122px;
+  //   height: 122px;
+  //   border-radius: 100%;
+  //   border: 17px solid  var(--primary-color);
+  //   box-sizing: content-box;
+  //   position: absolute;
+  //   bottom: -78px;
+  //   left: 0;
+  // }
+
+  // .top-img {
+  //   @extend %img;
+  //   height: 340px;
+  //   width: 340px;
+  //   left: 170px;
+  //   top: -154px;
+  // }
+  // .bottom-img {
+  //   @extend %img;
+  //   height: 272px;
+  //   width: 272px;
+  //   left: 0;
+  //   bottom: -68px;
+  // }
+
+  // .slogan-box {
+  //   background: url("../../../images/auth-bg.jpeg") no-repeat center;
+  //   height: 992px;
+  //   width: 992px;
+  //   position: absolute;
+  //   right: 0;
+  //   border-radius: 100%;
+  //   background-size: cover;
+  //   overflow: hidden;
+  //   z-index: 1;
+  //   .txt {
+  //     width: 718px;
+  //     height: 718px;
+  //     background: rgba($color: $primary-400, $alpha: 0.27);
+  //     border-radius: 100%;
+  //     font-size: 48px;
+  //     text-align: center;
+  //     padding: 0 50px;
+  //   }
+  //   span {
+  //     animation: flickerAnimation 10s infinite;
+  //     animation-timing-function: ease;
+  //   }
+  // }
+  // @include media-max(xxl) {
+  //   .slogan-box {
+  //     height: 890px;
+  //     width: 890px;
+  //     .txt {
+  //       width: 700px;
+  //       height: 700px;
+  //       font-size: 46px;
+  //     }
+  //   }
+  //   .top-img {
+  //     height: 280px;
+  //     width: 280px;
+  //     top: -144px;
+  //   }
+  //   .bottom-img {
+  //     height: 202px;
+  //     width: 202px;
+  //     bottom: -68px;
+  //   }
+  // }
+  // @include media-max(xl) {
+  //   padding: 25px;
+  //   .child-box {
+  //     max-width: 360px;
+  //   }
+  //   .slogan-box {
+  //     height: 690px;
+  //     width: 690px;
+  //     .txt {
+  //       width: 500px;
+  //       height: 500px;
+  //       font-size: 32px;
+  //     }
+  //   }
+  // }
+  // @include media-max(lg) {
+  //   justify-content: center;
+  //   .child-box {
+  //     max-width: 400px;
+  //   }
+  //   .top-img {
+  //     top: -115px;
+  //   }
+  // }
+  // @include media-max(md) {
+  //   .child-box {
+  //     padding: 30px 20px 20px;
+  //     min-height: auto;
+  //   }
+  //   .top-img {
+  //     top: -85px;
+  //     height: 180px;
+  //     width: 180px;
+  //     left: 10px;
+  //   }
+  //   .bottom-img {
+  //     height: 182px;
+  //     width: 182px;
+  //   }
+  // }
+  // @include media-max(sm) {
+  //   padding: 20px 15px;
+  //   .child-box {
+  //     padding: 20px 15px 15px;
+  //     border-radius: 18px;
+  //   }
+  //   &:after {
+  //     left: calc(100% - 76px);
+  //   }
+  //   .top-img {
+  //     top: -75px;
+  //     left: -40px;
+  //   }
+  // }
+}
+
+// %img {
+//   border-radius: 100%;
+//   overflow: hidden;
+//   opacity: 0.6;
+//   position: absolute;
+// }
